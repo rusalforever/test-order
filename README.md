@@ -42,5 +42,15 @@ Run Server:
 ```
 python manage.py runserver
 ```                                 
-### API doc
+### API doc:
 Swagger (http://127.0.0.1:8000/)
+schema-redoc (http://127.0.0.1:8000/redoc)
+
+### Browseable API endpoint list:
+(http://127.0.0.1:8000/product-list/)
+(http://127.0.0.1:8000/order-cteate/)
+(http://127.0.0.1:8000/open-orders/)
+(http://127.0.0.1:8000/accountant-order-list/)
+(http://127.0.0.1:8000/open-order-done/<int:pk>/)
+(http://127.0.0.1:8000/done-order-paid/<int:pk>/)
+(http://127.0.0.1:8000/order-invoice/<int:pk>/)
