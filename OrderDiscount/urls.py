@@ -45,4 +45,5 @@ urlpatterns = [
     path('accountant-order-list/', api_views.AccountantOrderList().as_view(), name='accountant-order-list'),
     path('open-order-done/<int:pk>/', api_views.OpenOrderDone.as_view(), name='open-order-done'),
     path('done-order-paid/<int:pk>/', api_views.DoneOrderPaid.as_view(), name='done-order-paid'),
+    path('order-invoice/<int:pk>/', api_views.OrderInvoice.as_view(), name='order-invoice'),
 ]

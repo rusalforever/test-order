@@ -68,3 +68,11 @@ class DoneOrderPaid(generics.UpdateAPIView):
     def perform_update(self, serializer):
         serializer.validated_data['status'] = 'Paid'
         serializer.save()
+
+
+class OrderInvoice(generics.RetrieveAPIView):
+    """
+    Show Invoice
+    """
+    serializer_class = InvoiceSerializer
+    queryset = Order.objects.all()
