@@ -1,0 +1,38 @@
+[
+{
+  "model": "orders.product",
+  "pk": 3,
+  "fields": {
+    "name": "product 3",
+    "price": "123.35",
+    "date_added": "2020-10-01T19:08:53.988Z"
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 4,
+  "fields": {
+    "name": "product 4",
+    "price": "123.35",
+    "date_added": "2020-10-01T19:09:05.863Z"
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 5,
+  "fields": {
+    "name": "product 4",
+    "price": "237.85",
+    "date_added": "2020-10-01T19:09:28.502Z"
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 6,
+  "fields": {
+    "name": "product on sale",
+    "price": "99.99",
+    "date_added": "2020-08-04T11:58:04.102Z"
+  }
+}
+]
