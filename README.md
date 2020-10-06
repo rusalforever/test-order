@@ -36,7 +36,7 @@ python manage.py migrate
 ```                                 
 Run tests: 
 ```
-python3 manage.py test
+python manage.py test
 ```                                 
 Run Server: 
 ```
